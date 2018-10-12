@@ -1,0 +1,6 @@
+D:\CursoVS2017APP\Labs2018\Lab04\src\Chinook.UI.Windows\Chinook.EF.CodeFirstData.Entities\bin\Debug\Chinook.EF.CodeFirstData.Entities.dll
+D:\CursoVS2017APP\Labs2018\Lab04\src\Chinook.UI.Windows\Chinook.EF.CodeFirstData.Entities\bin\Debug\Chinook.EF.CodeFirstData.Entities.pdb
+D:\CursoVS2017APP\Labs2018\Lab04\src\Chinook.UI.Windows\Chinook.EF.CodeFirstData.Entities\obj\Debug\Chinook.EF.CodeFirstData.Entities.csprojResolveAssemblyReference.cache
+D:\CursoVS2017APP\Labs2018\Lab04\src\Chinook.UI.Windows\Chinook.EF.CodeFirstData.Entities\obj\Debug\Chinook.EF.CodeFirstData.Entities.csproj.CoreCompileInputs.cache
+D:\CursoVS2017APP\Labs2018\Lab04\src\Chinook.UI.Windows\Chinook.EF.CodeFirstData.Entities\obj\Debug\Chinook.EF.CodeFirstData.Entities.dll
+D:\CursoVS2017APP\Labs2018\Lab04\src\Chinook.UI.Windows\Chinook.EF.CodeFirstData.Entities\obj\Debug\Chinook.EF.CodeFirstData.Entities.pdb

@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.UI.Windows", "Chinook.UI.Windows\Chinook.UI.Windows.csproj", "{BCAD47B9-986C-4966-A4F7-297EB33F3FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.Entities.Base", "Chinook.Entities.Base\Chinook.Entities.Base.csproj", "{310D6C88-B0FA-4991-BD80-E9B371857500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.DataAccess", "Chinook.DataAccess\Chinook.DataAccess.csproj", "{731E2C48-5673-4469-AE0C-F137BF6A6618}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adonet", "Adonet", "{BB5C263F-26FD-4C01-921F-559B33A87A40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF", "EF", "{2E9957D4-67E0-4B2E-B1E9-C795A5900CE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.EF.CodeFirst.Entities", "Chinook.EF.CodeFirst.Entities\Chinook.EF.CodeFirst.Entities.csproj", "{3D8493B4-5A4A-4580-AEF1-AEA9F3BBB947}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeFirst", "CodeFirst", "{02E9C23F-41B8-4FD3-AAF9-56D7FB20DAA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.EF.CodeFirst.DataAccess", "Chinook.EF.CodeFirst.DataAccess\Chinook.EF.CodeFirst.DataAccess.csproj", "{A194CC22-AA02-44C3-AF98-291ACB749752}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeFirstData", "CodeFirstData", "{A3A9C9E7-B02B-4307-836A-EF405DC3A15D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.EF.CodeFirstData.DataAccess", "Chinook.EF.CodeFirstData.DataAccess\Chinook.EF.CodeFirstData.DataAccess.csproj", "{90A9A216-FAA4-4B87-B756-287B6CFBC466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.EF.CodeFirstData.Entities", "Chinook.EF.CodeFirstData.Entities\Chinook.EF.CodeFirstData.Entities.csproj", "{F182AA2E-4CD4-4D2D-B6B5-041EBA807BA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.EF.CodeFirstData.Windows", "Chinook.EF.CodeFirstData.Windows\Chinook.EF.CodeFirstData.Windows.csproj", "{A2C298F5-AA45-413D-9A05-6D7F6D7CFF48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.EF.CodeFirstData.DataAccessUnitTest", "Chinook.EF.CodeFirstData.DataAccessUnitTest\Chinook.EF.CodeFirstData.DataAccessUnitTest.csproj", "{7E06109F-636C-4E66-959D-A86EEC519FFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCAD47B9-986C-4966-A4F7-297EB33F3FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAD47B9-986C-4966-A4F7-297EB33F3FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAD47B9-986C-4966-A4F7-297EB33F3FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAD47B9-986C-4966-A4F7-297EB33F3FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310D6C88-B0FA-4991-BD80-E9B371857500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310D6C88-B0FA-4991-BD80-E9B371857500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310D6C88-B0FA-4991-BD80-E9B371857500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310D6C88-B0FA-4991-BD80-E9B371857500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731E2C48-5673-4469-AE0C-F137BF6A6618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731E2C48-5673-4469-AE0C-F137BF6A6618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731E2C48-5673-4469-AE0C-F137BF6A6618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731E2C48-5673-4469-AE0C-F137BF6A6618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D8493B4-5A4A-4580-AEF1-AEA9F3BBB947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8493B4-5A4A-4580-AEF1-AEA9F3BBB947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8493B4-5A4A-4580-AEF1-AEA9F3BBB947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8493B4-5A4A-4580-AEF1-AEA9F3BBB947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A194CC22-AA02-44C3-AF98-291ACB749752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A194CC22-AA02-44C3-AF98-291ACB749752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A194CC22-AA02-44C3-AF98-291ACB749752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A194CC22-AA02-44C3-AF98-291ACB749752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A9A216-FAA4-4B87-B756-287B6CFBC466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A9A216-FAA4-4B87-B756-287B6CFBC466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A9A216-FAA4-4B87-B756-287B6CFBC466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A9A216-FAA4-4B87-B756-287B6CFBC466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F182AA2E-4CD4-4D2D-B6B5-041EBA807BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F182AA2E-4CD4-4D2D-B6B5-041EBA807BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F182AA2E-4CD4-4D2D-B6B5-041EBA807BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F182AA2E-4CD4-4D2D-B6B5-041EBA807BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C298F5-AA45-413D-9A05-6D7F6D7CFF48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C298F5-AA45-413D-9A05-6D7F6D7CFF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C298F5-AA45-413D-9A05-6D7F6D7CFF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C298F5-AA45-413D-9A05-6D7F6D7CFF48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E06109F-636C-4E66-959D-A86EEC519FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E06109F-636C-4E66-959D-A86EEC519FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E06109F-636C-4E66-959D-A86EEC519FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E06109F-636C-4E66-959D-A86EEC519FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCAD47B9-986C-4966-A4F7-297EB33F3FEA} = {BB5C263F-26FD-4C01-921F-559B33A87A40}
+		{310D6C88-B0FA-4991-BD80-E9B371857500} = {BB5C263F-26FD-4C01-921F-559B33A87A40}
+		{731E2C48-5673-4469-AE0C-F137BF6A6618} = {BB5C263F-26FD-4C01-921F-559B33A87A40}
+		{3D8493B4-5A4A-4580-AEF1-AEA9F3BBB947} = {02E9C23F-41B8-4FD3-AAF9-56D7FB20DAA6}
+		{02E9C23F-41B8-4FD3-AAF9-56D7FB20DAA6} = {2E9957D4-67E0-4B2E-B1E9-C795A5900CE0}
+		{A194CC22-AA02-44C3-AF98-291ACB749752} = {02E9C23F-41B8-4FD3-AAF9-56D7FB20DAA6}
+		{A3A9C9E7-B02B-4307-836A-EF405DC3A15D} = {2E9957D4-67E0-4B2E-B1E9-C795A5900CE0}
+		{90A9A216-FAA4-4B87-B756-287B6CFBC466} = {A3A9C9E7-B02B-4307-836A-EF405DC3A15D}
+		{F182AA2E-4CD4-4D2D-B6B5-041EBA807BA1} = {A3A9C9E7-B02B-4307-836A-EF405DC3A15D}
+		{A2C298F5-AA45-413D-9A05-6D7F6D7CFF48} = {A3A9C9E7-B02B-4307-836A-EF405DC3A15D}
+		{7E06109F-636C-4E66-959D-A86EEC519FFA} = {A3A9C9E7-B02B-4307-836A-EF405DC3A15D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF865ECA-F6C2-4CC2-B337-6E4AF863B793}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+D:\CursoVS2017APP\Labs2018\Lab02\src\Chinook.UI.Windows\Chinook.DataAccess\bin\Debug\Chinook.DataAccess.dll
+D:\CursoVS2017APP\Labs2018\Lab02\src\Chinook.UI.Windows\Chinook.DataAccess\bin\Debug\Chinook.DataAccess.pdb
+D:\CursoVS2017APP\Labs2018\Lab02\src\Chinook.UI.Windows\Chinook.DataAccess\bin\Debug\Chinook.Entities.Base.dll
+D:\CursoVS2017APP\Labs2018\Lab02\src\Chinook.UI.Windows\Chinook.DataAccess\bin\Debug\Chinook.Entities.Base.pdb
+D:\CursoVS2017APP\Labs2018\Lab02\src\Chinook.UI.Windows\Chinook.DataAccess\obj\Debug\Chinook.DataAccess.csprojResolveAssemblyReference.cache
+D:\CursoVS2017APP\Labs2018\Lab02\src\Chinook.UI.Windows\Chinook.DataAccess\obj\Debug\Chinook.DataAccess.csproj.CoreCompileInputs.cache
+D:\CursoVS2017APP\Labs2018\Lab02\src\Chinook.UI.Windows\Chinook.DataAccess\obj\Debug\Chinook.DataAccess.dll
+D:\CursoVS2017APP\Labs2018\Lab02\src\Chinook.UI.Windows\Chinook.DataAccess\obj\Debug\Chinook.DataAccess.pdb

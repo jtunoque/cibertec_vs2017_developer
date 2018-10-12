@@ -1,0 +1,11 @@
+D:\CursoVS2017APP\Labs2018\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.UI.Desktop.exe.config
+D:\CursoVS2017APP\Labs2018\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.UI.Desktop.exe
+D:\CursoVS2017APP\Labs2018\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.UI.Desktop.pdb
+D:\CursoVS2017APP\Labs2018\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.csprojResolveAssemblyReference.cache
+D:\CursoVS2017APP\Labs2018\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.Form1.resources
+D:\CursoVS2017APP\Labs2018\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.Properties.Resources.resources
+D:\CursoVS2017APP\Labs2018\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.csproj.GenerateResource.Cache
+D:\CursoVS2017APP\Labs2018\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.exe
+D:\CursoVS2017APP\Labs2018\Lab01\App.UI.Desktop\App.UI.Desktop\obj\Debug\App.UI.Desktop.pdb
+D:\CursoVS2017APP\Labs2018\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.Entities.Base.dll
+D:\CursoVS2017APP\Labs2018\Lab01\App.UI.Desktop\App.UI.Desktop\bin\Debug\App.Entities.Base.pdb
