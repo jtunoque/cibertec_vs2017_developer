@@ -1,4 +1,5 @@
 ﻿using Chinook.Entities.Base;
+using Chinook.Entities.Queries;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +32,9 @@ namespace Chinook.Services.wcf
 
         [OperationContract]
         Artist GetArtitsById(int id);
+
+        [OperationContract]
+        IEnumerable<TrackListadoQuery> GetSearchTrack(string trackName);
 
         // TODO: agregue aquí sus operaciones de servicio
     }

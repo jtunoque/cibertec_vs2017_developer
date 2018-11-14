@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TrackRepository.cs" />
     <Compile Include="ArtistRepository.cs" />
     <Compile Include="AlbumRepository.cs" />
     <Compile Include="ChinookDBModel.cs" />

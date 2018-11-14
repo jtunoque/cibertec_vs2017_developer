@@ -11,6 +11,7 @@ namespace Chinook.DataAccess.Repository.Interfaces
         IAlbumRepository AlbumRepository { get; }
         IArtistRepository ArtistRepository { get; }
         IInvoiceRepository InvoiceRepository { get; }
+        ITrackRepository TrackRepository { get; }
         int Complete();
     }
 }

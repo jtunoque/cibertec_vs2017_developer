@@ -16,6 +16,8 @@
         <asp:GridView ID="grdListado" runat="server"
             CssClass="table table-striped table-bordered table-hover"
             AutoGenerateColumns="false"
+            AllowPaging="true" PageSize="5"
+            OnPageIndexChanging="grdListado_PageIndexChanging"
             >
             <Columns>
                 <asp:BoundField DataField="ArtistId" HeaderText="Código" />

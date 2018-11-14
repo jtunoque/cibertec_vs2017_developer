@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Chinook.UI.WebForm.MantenimientoServices;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -17,15 +18,27 @@ namespace Chinook.UI.WebForm
 
         protected void btnConsultar_Click(object sender, EventArgs e)
         {
+            Session["artists"] = null;
             Consultar();
         }
 
         private void Consultar()
         {
-            var service = 
-                new MantenimientoServices.MantenimientosServicesClient();
+            dynamic data=null;
 
-            var data = service.GetArtitsByname(txtFiltroByName.Text);
+            if (Session["artists"] == null)
+            {
+                var service =
+                    new MantenimientoServices.MantenimientosServicesClient();
+
+                data = service.GetArtitsByname(txtFiltroByName.Text);
+
+                Session["artists"] = data;
+            }
+            else
+            {
+                data = Session["artists"] as Artist[];
+            }
 
             grdListado.DataSource = data;
             grdListado.DataBind();
@@ -35,6 +48,12 @@ namespace Chinook.UI.WebForm
         protected void btnNuevo_Click(object sender, EventArgs e)
         {
             Response.Redirect("frmArtistEdit.aspx");
+        }
+
+        protected void grdListado_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            grdListado.PageIndex = e.NewPageIndex;
+            Consultar();
         }
     }
 }

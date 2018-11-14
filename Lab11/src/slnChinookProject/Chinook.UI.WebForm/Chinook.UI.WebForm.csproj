@@ -160,6 +160,7 @@
     <Content Include="Content\tema\binary\assets\js\morris\morris.js" />
     <Content Include="Content\tema\binary\assets\js\morris\raphael-2.1.0.min.js" />
     <Content Include="Content\tema\css\StyleMain.css" />
+    <Content Include="Ventas\Busqueda.aspx" />
     <Content Include="WebFormDemoMaster.aspx" />
     <Content Include="BinaryMaster.Master" />
     <None Include="Connected Services\MantenimientoServices\MantenimientosServices.disco" />
@@ -325,6 +326,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\Busqueda.aspx.cs">
+      <DependentUpon>Busqueda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ventas\Busqueda.aspx.designer.cs">
+      <DependentUpon>Busqueda.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

@@ -9,6 +9,7 @@ using System.Text;
 using Chinook.DataAccess.Repository;
 using Chinook.DataAccess.Repository.Interfaces;
 using Chinook.Entities.Base;
+using Chinook.Entities.Queries;
 
 namespace Chinook.Services.wcf
 {
@@ -70,6 +71,12 @@ namespace Chinook.Services.wcf
                 composite.StringValue += "Suffix";
             }
             return composite;
+        }
+
+        public IEnumerable<TrackListadoQuery> GetSearchTrack(string trackName)
+        {
+            var artists = unitOfWork.TrackRepository.GetSearchTrack(trackName);
+            return artists;
         }
     }
 }
