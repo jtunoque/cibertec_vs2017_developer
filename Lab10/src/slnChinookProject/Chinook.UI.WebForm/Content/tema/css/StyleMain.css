@@ -1,0 +1,44 @@
+﻿header{
+    /*Color del fondo*/
+    background-color:#0e4f80;
+    /*Color de la letra*/
+    color: white;
+    height: 100px;
+}
+
+header img.logo{
+    height:95%;
+    border:2px solid;
+    border-color: #0e4f80;
+}
+
+.main-content 
+{
+    margin-top:10px;
+}
+
+table.table-custom {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 100%;
+}
+
+table.table-custom thead {
+    background-color:#1C6EA4;
+    color:#FFFFFF;
+    font-size:15px;    
+}
+
+table.table-custom tbody tr:nth-child(even)
+{
+    background:#D0E4F5;
+}
+
+table.table-custom tbody tr:nth-child(2n+1) {
+    background: white;
+}
+
+table.table-custom tbody tr td
+{
+    font-size:13px;
+}
